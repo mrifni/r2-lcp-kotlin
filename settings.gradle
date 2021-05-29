@@ -1,1 +1,4 @@
 include ':r2-lcp'
+
+include ':r2-shared'
+project(':r2-shared').projectDir = new File(rootDir, '../r2-shared-kotlin/r2-shared')
